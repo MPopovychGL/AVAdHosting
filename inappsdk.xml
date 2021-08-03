@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VAST version="2.0">
+  <Ad>
+    <InLine>
+      <AdSystem>
+        <![CDATA[AV IMA SDK]]>
+      </AdSystem>
+      <AdTitle>
+        <![CDATA[AV IMA SDK]]>
+      </AdTitle>
+      <Description>
+        <![CDATA[AV IMA SDK]]>
+      </Description>
+      <Creatives>
+        <Creative>
+          <Linear>
+            <Duration>00:00:15</Duration>
+            <TrackingEvents />
+            <AdParameters>
+              <![CDATA[{"tagUrl":"https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ct%3Dskippablelinear&correlator=[AVC_RANDOM]&contentUrl=[AVC_URL]"}]]>
+            </AdParameters>
+            <MediaFiles>
+              <MediaFile height="480" width="640" type="application/javascript" delivery="progressive" maintainAspectRatio="true" scalable="true" apiFramework="VPAID">
+                <![CDATA[https://raw.githubusercontent.com/MPopovychGL/AVAdHosting/main/inappsdkvpaid.js]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+        <Creative id="28660142" AdID="28660142" sequence="1">
+          <CompanionAds/>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
